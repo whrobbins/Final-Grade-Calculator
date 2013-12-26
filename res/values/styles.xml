@@ -16,5 +16,10 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+    
+    <!--  attempt at creating a translucent background -->
+    <style name="YourTheme" parent="android:@Theme.Translucent">
+           <item name="android:windowBackground">@color/background</item>
+     </style>
 
 </resources>
